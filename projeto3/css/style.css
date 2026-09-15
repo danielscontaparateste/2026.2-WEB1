@@ -1,0 +1,23 @@
+p {
+    /* color: white; */
+    /* background-color: black; */
+    /* text-align: center; */
+    text-align: justify;
+    /* text-decoration: underline; */
+}
+
+body{
+    background-color: bisque;
+    background-image: url("../images/logo_ifce_maracanau.jpeg");
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+a{
+    background-color: white;
+    border: 3px solid black;
+    
+}
