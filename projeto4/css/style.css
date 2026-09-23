@@ -1,0 +1,88 @@
+body{
+    background-color: lightgray;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: #333;
+    font-weight: bold;
+}
+
+p{
+    /* font-style: italic; */
+    text-align: justify;
+    /* text-decoration: underline; */
+    /* font-size: 18px; */
+    /* font-variant: small-caps; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+    /* letter-spacing: 5px; */
+    /* word-spacing: 5px;
+    text-indent: 30px;
+    line-height: 30px; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* font-variant: normal; */
+
+    /* font-style | font-variant | font-weight | font-size | font-family */
+    font: italic small-caps normal 18px/30px 'Courier New', Courier, monospace;
+}
+
+h2, h3{
+    color: blue;
+}
+
+h3{
+    /* color: blue; */
+    text-align: center;
+}
+
+#subsec1{
+    text-transform: uppercase;
+}
+
+h2#subsec2{
+    text-transform: lowercase;
+}
+#subsec3{
+    text-transform: capitalize;
+}
+
+/* span{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+} */
+
+/* .destacar{
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+} */
+
+.destacar{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+#p1 .destacar{
+    color: red;
+    /* font-weight: bold;
+    text-decoration: none; */
+}
+
+#p2 .destacar{
+    color: green;
+    /* font-weight: bold;
+    text-decoration: none; */
+}
+
+#p3 .destacar{
+    color: purple;
+    /* font-weight: bold;
+    text-decoration: none; */
+}
+
