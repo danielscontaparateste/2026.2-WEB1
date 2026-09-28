@@ -1,0 +1,22 @@
+div{
+    border: 1px solid black;
+    width: 50%;
+   
+}
+
+.center{
+    text-align: center;
+}
+
+/* #d1{ */
+/* div.d1{ */
+.d1{
+    background-color: yellow;
+    width: 100px;
+}
+
+/* #d2{ */
+.d2{
+    background-color: purple;
+    color: white;
+}
