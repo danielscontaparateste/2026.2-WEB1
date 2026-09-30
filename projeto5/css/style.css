@@ -1,22 +1,46 @@
-div{
+/* div{
     border: 1px solid black;
     width: 50%;
    
-}
+} */
 
-.center{
+/* .center{
     text-align: center;
 }
 
 /* #d1{ */
 /* div.d1{ */
-.d1{
+/* .d1{
     background-color: yellow;
     width: 100px;
-}
+} */
 
 /* #d2{ */
-.d2{
+/* .d2{
     background-color: purple;
     color: white;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+#container{
+    border: 2px solid black;
+    background-color: lightgrey;
+    width: 800px;
+    /* height: 100%; */
+    overflow: auto;
+}
+
+#cursosTecnologia{
+    border: 1px solid black;
+    width: 50%;
+    float: left;
+}
+
+#cursosSaude{
+    border: 1px solid black;
+    width: 50%;
+    float: right;
 }
