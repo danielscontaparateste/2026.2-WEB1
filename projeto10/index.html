@@ -9,9 +9,10 @@
 <body>
     <form>
         <label for="iptNome">Nome: </label>
-        <input type="text" id="iptNome"><br>
+        <input type="text" id="iptNome" onfocus="limpar()" oninput="contador()"> <span id="spnContador"></span> <br>
         <button type="button" onclick="mostrar()" id="btnMostrar">Mostrar</button>
         <button type="button" onclick="limpar()" id="btnLimpar">Limpar</button>
+        
 
         <span id="spnMsg"></span>
 

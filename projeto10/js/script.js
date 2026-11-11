@@ -33,4 +33,16 @@ function limpar(){
 
     document.querySelector("#spnMsg").innerHTML = "";
 
+    document.getElementById("spnContador").textContent = "";
+
+}
+
+function contador(){
+    var objIptNome = document.getElementById("iptNome");
+
+    var username =  objIptNome.value;
+
+    var objSpnContador = document.getElementById("spnContador");
+
+    objSpnContador.textContent = username.length;
 }
