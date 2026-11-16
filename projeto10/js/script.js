@@ -53,7 +53,7 @@ function contador(){
         das Operações
 */    
 
-function somar(){
+function operacao(){
     var iptX = document.getElementById("iptX");
     // var x = Number(iptX.value);
     var x = parseInt(iptX.value);
@@ -61,11 +61,42 @@ function somar(){
     // var y = Number(document.getElementById("iptY").value);
     var y = parseInt(document.getElementById("iptY").value);
 
-    var res = x + y;
+    // var op = Number(document.getElementById('iptOp').value);
+    var op = Number(document.getElementById('slctOper').value);
 
-    // document.getElementById("spnRes").innerHTML = x + '+' + y + '=' + res;
+    var res = 0;
+    if (op==0){
+        res = somar(x, y);
+    }else if (op==1){
+        res = subtrair(x, y);
+    }else if (op==2){
+        res = multiplicar(x, y);
+    }else if (op==3){
+        if (y!=0){
+            res = dividir(x,y);
+        }else{
+            res = 'inválido';    
+        }    
+    }else{
+        res = 'inválido';
+    }
 
-    document.getElementById("spnRes").innerHTML = `${x} + ${y} = ${res}`
+    document.getElementById("spnRes").innerHTML = `resultado da operação = ${res}`;
 
+}
 
+function somar(a , b){
+    return (a+b);
+}
+
+function subtrair(a, b){
+    return (a-b);
+}
+
+function multiplicar(a, b){
+    return (a*b);
+}
+
+function dividir(a, b){
+    return (a/b);
 }
