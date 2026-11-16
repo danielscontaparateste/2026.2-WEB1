@@ -46,3 +46,26 @@ function contador(){
 
     objSpnContador.textContent = username.length;
 }
+
+// Comentários 
+
+/* Implementação 
+        das Operações
+*/    
+
+function somar(){
+    var iptX = document.getElementById("iptX");
+    // var x = Number(iptX.value);
+    var x = parseInt(iptX.value);
+
+    // var y = Number(document.getElementById("iptY").value);
+    var y = parseInt(document.getElementById("iptY").value);
+
+    var res = x + y;
+
+    // document.getElementById("spnRes").innerHTML = x + '+' + y + '=' + res;
+
+    document.getElementById("spnRes").innerHTML = `${x} + ${y} = ${res}`
+
+
+}

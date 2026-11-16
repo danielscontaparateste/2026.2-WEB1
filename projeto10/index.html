@@ -8,13 +8,25 @@
 </head>
 <body>
     <form>
-        <label for="iptNome">Nome: </label>
-        <input type="text" id="iptNome" onfocus="limpar()" oninput="contador()"> <span id="spnContador"></span> <br>
-        <button type="button" onclick="mostrar()" id="btnMostrar">Mostrar</button>
-        <button type="button" onclick="limpar()" id="btnLimpar">Limpar</button>
-        
+        <fieldset>
+            <legend>Dados: </legend>
+            <label for="iptNome">Nome: </label>
+            <input type="text" id="iptNome" onfocus="limpar()" oninput="contador()"> <span id="spnContador"></span> <br>
+            <button type="button" onclick="mostrar()" id="btnMostrar">Mostrar</button>
+            <button type="button" onclick="limpar()" id="btnLimpar">Limpar</button>
+        </fieldset>
+
+        <fieldset>
+            <legend>Operação</legend>
+            <label for="iptX">X: </label>
+            <input type="number" id="iptX"><br>
+            <label for="iptX">Y: </label>
+            <input type="number" id="iptY"><br>
+            <button type="button" onclick="somar()">Somar</button>
+        </fieldset>
 
         <span id="spnMsg"></span>
+        <span id="spnRes"></span>
 
     </form>
 </body>
